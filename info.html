@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Information</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card animated">
+      <h2 class="gradient-text">Product Details</h2>
+      <form id="detailsForm" class="form">
+        <select required>
+          <option value="">Craft Type</option>
+          <option>Pottery</option>
+          <option>Handloom</option>
+          <option>Block Print</option>
+          <option>Other</option>
+        </select>
+        <input type="text" placeholder="Materials Used" required>
+        <input type="number" min="0" placeholder="Hours Spent" required>
+        <input type="number" min="0" placeholder="Material Cost (₹)" required>
+        <input type="number" min="0" max="100" placeholder="Desired Margin (%)" required>
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <a href="upload.html" class="nav-btn button alt">← Back</a>
+      <a href="dealers.html" class="nav-btn button">Next →</a>
+    </footer>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
